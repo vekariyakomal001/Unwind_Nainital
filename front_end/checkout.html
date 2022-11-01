@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Checkout</title>
+      <link rel="stylesheet" type="text/css" href="CSS.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar1">
+         <div class="navbar-container1 header-container1 common-container1">
+            <a href="Home.html" class="logo"><img src="logo.png" alt=""></a>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+               <li><a class="nav-link" href="Home.html" class="nav-link">Home</a></li>
+               <li><a href="activities.html" class="nav-link">Activities</a></li>
+               <li class="mobile-margin"><a href="aboutus.html" class="nav-link">About Us</a></li>
+               <li><a href="login.html" class="nav-link">Sign Out  <i class="fa fa-sign-out"></i></a></li>
+               <li><a href="checkout.html" class="active nav-link">Cart <i class="fa fa-shopping-cart"></i><i class="fa fa-cart-shopping"></i></a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="choice">
+         <h1 class="home-sec1-main-title"><b>Your Choice of Activity</b></h1>
+      </div>
+      <div class="bag">
+         <h1 class="home-sec1-main-title"><b>Is added to bag Successfully</b></h1>
+      </div>
+      <div class="bag-details">
+         <section class="bag-details-part1">
+            <div class="bag-details-part1-img">
+               <img src="1.jpg" alt="Image1">
+            </div>
+         </section>
+         <section class="bag-details-part2">
+            <p class="activity_name"><b>Name&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; Activity 1</b></p>
+            <p class="activity_name"><b>Price&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; $ 120</b></p>
+            <p class="activity_name"><b>Notes&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; </b>Hello How are you?</p>
+            <p class="activity_name"><b>Name&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</b>Unwind Nainital Unwind Nainital Unwind Nainital Unwind Nainital Unwind Nainital Unwind Nainital Unwind Nainital</p>
+            <p class="activity_name">
+               <b>Time Slots&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</b>
+               <select name="timeslots" id="timeslots">
+                  <option value=" ">Select Time Slot</option>
+                  <option value="9to11">9 to 11</option>
+                  <option value="11to1">11 to 1</option>
+                  <option value="1to3">1 to 3</option>
+                  <option value="3to5">3 to 5</option>
+               </select>
+            </p>
+            <p class="activity_name">
+               <b>Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;</b>
+               <select name="quantity" id="timeslots">
+                  <option value=" ">Select quantity</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+               </select>
+            </p>
+         </section>
+      </div>
+      <div class="confirm-booking">
+         <div class="confirm-up">
+            <section>
+               <h2><b class="confirm-tittle">Click to confirm your booking</b></h2>
+            </section>
+            <section>
+               <div class="button-confirm"><a href="confirm-booking.html"><b>Confirm Booking</b></a></div>
+            </section>
+         </div>
+         <div class="confirm-booking-text">
+            <p>          A Booking id will be generated once you confirm your booking.<br>
+               You need to pay the amount at activity counters once you receive the booking id.
+            </p>
+         </div>
+      </div>
+      <div class="footer1">
+         <div class="footer-container1">
+            <div class="column-footer1" style="margin-left: 3rem;">
+               <h3><b>Navigation</b></h3>
+               <ul>
+                  <li><a  href="Home.html">Home</a></li>
+                  <li><a href="activities.html">Activities</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="login.html">Sign Out</a></li>
+                  <li><a class="active" href="checkout.html">Cart</a></li>
+               </ul>
+            </div>
+            <div class="column-footer1">
+               <h3><b>Follow Us</b></h3>
+               <ul>
+                  <li style="font-size: 2.5rem;"><a href="https://www.facebook.com/" target="_blank" class="fa social fa-facebook"></a>
+                     <a href="https://twitter.com/login" target="_blank" class="fa social fa-twitter"></a>
+                  </li>
+                  <li style="font-size: 2.5rem;"><a href="https://www.instagram.com/?nocaa=1&refsrc=deprecated" target="_blank" class="fa social fa-instagram"></a>
+                     <a href="https://www.linkedin.com/signup" target="_blank" class="fa social fa-linkedin"></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="column-footer1">
+               <h3><b>Contact Details</b></h3>
+               <ul>
+                  <li><a href="#" class="fa contact-fa fa-map-marker"></a>12, Building Name, Street Name, City,
+                     Country - Zipcode
+                  </li>
+                  <li><a href="tel:123 456 789" class="fa contact-fa fa-phone"></a><a href="tel:123 456 789">123 456
+                     789</a>
+                  </li>
+                  <li><a href="mailto:hercloset@gmail.com" class="fa contact-fa fa-envelope"></a><a
+                     href="mailto:hercloset@gmail.com">unwindnainital@gmail.com</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

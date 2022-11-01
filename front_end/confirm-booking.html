@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home</title>
+      <link rel="stylesheet" type="text/css" href="CSS.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar1">
+         <div class="navbar-container1 header-container1 common-container1">
+            <a href="Home.html" class="logo"><img src="logo.png" alt=""></a>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+               <li><a class=" nav-link" href="Home.html" class="nav-link">Home</a></li>
+               <li><a href="activities.html" class="nav-link">Activities</a></li>
+               <li class="mobile-margin"><a href="aboutus.html" class="nav-link">About Us</a></li>
+               <li><a href="login.html" class="nav-link">Sign Out  <i class="fa fa-sign-out"></i></a></li>
+               <li><a href="checkout.html" class="active nav-link">Cart <i class="fa fa-shopping-cart"></i><i class="fa fa-cart-shopping"></i></a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="confirmation">
+         <div class="confirmation-title">
+            <p>Unwind Nainital</p>
+         </div>
+         <div class="confirmation-title1">
+            <p>Your Booking is confirmed<br>
+               Your Booking id is - <span id="id"> </span>
+               <br>
+               Reached the counter 2 hrs prior to make Payments.
+               <br>
+               Once payment is done, final tickets will be issued.
+               <br>
+               Note:
+               <br>
+               Please bring your ID with you as they will be checked at the counter before issuing the tickets. 
+               <br>
+               List of accepted photo id's.<br>
+               Passport, Driving lisence etc.
+            </p>
+         </div>
+      </div>
+      <div class="footer1">
+         <div class="footer-container1">
+            <div class="column-footer1" style="margin-left: 3rem;">
+               <h3><b>Navigation</b></h3>
+               <ul>
+                  <li><a href="Home.html">Home</a></li>
+                  <li><a href="activities.html">Activities</a></li>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="login.html">Sign Out</a></li>
+                  <li><a class="active" href="cart.html">Cart</a></li>
+               </ul>
+            </div>
+            <div class="column-footer1">
+               <h3><b>Follow Us</b></h3>
+               <ul>
+                  <li style="font-size: 2.5rem;"><a href="https://www.facebook.com/" target="_blank" class="fa social fa-facebook"></a>
+                     <a href="https://twitter.com/login" target="_blank" class="fa social fa-twitter"></a>
+                  </li>
+                  <li style="font-size: 2.5rem;"><a href="https://www.instagram.com/?nocaa=1&refsrc=deprecated" target="_blank" class="fa social fa-instagram"></a>
+                     <a href="https://www.linkedin.com/signup" target="_blank" class="fa social fa-linkedin"></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="column-footer1">
+               <h3><b>Contact Details</b></h3>
+               <ul>
+                  <li><a href="#" class="fa contact-fa fa-map-marker"></a>12, Building Name, Street Name, City,
+                     Country - Zipcode
+                  </li>
+                  <li><a href="tel:123 456 789" class="fa contact-fa fa-phone"></a><a href="tel:123 456 789">123 456
+                     789</a>
+                  </li>
+                  <li><a href="mailto:hercloset@gmail.com" class="fa contact-fa fa-envelope"></a><a
+                     href="mailto:hercloset@gmail.com">unwindnainital@gmail.com</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript">
+         var id = Math.floor(Math.random()*900000) + 100000;
+         document.getElementById("id").innerHTML = id;
+         
+      </script>
+   </body>
+</html>

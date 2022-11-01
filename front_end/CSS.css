@@ -1,0 +1,461 @@
+.carousel-inner img {
+width: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+padding: 0;
+margin: 0.5;
+}
+.header-container {
+max-width: 90%;
+width: 100%;
+/*max-width: 1300px;
+width: 90%;*/
+margin: auto;
+}
+/*-----------------desktop mode header------------------*/
+.navbar1 input[type="checkbox"],
+.navbar1 .hamburger-lines {
+display: none;
+}
+.navbar1 {
+background-color: #F2E9E4;
+box-shadow: 0px 5px 10px 0px #aaa;
+width: 100%;
+color: black;
+opacity: 0.85;
+}
+.navbar-container1 {
+display: flex;
+justify-content: space-between;
+height: 90px;
+align-items: center;
+margin-left: 180px;
+}
+.menu-items {
+order: 2;
+display: flex;
+}
+.menu-items li {
+list-style: none;
+margin-left: 1rem;
+font-size: 1.3rem;
+}
+.menu-items a {
+text-decoration: none;
+color: black;
+font-weight: 500;
+transition: color 0.3s ease-in-out;
+/*padding-left: 5px;*/
+}
+/*.menu-items a:hover {
+color: #444;
+transition: color 0.3s ease-in-out;
+}*/
+.menu-items a.active {
+background-color: #f96d33 ;
+color: white;
+padding: 11px 18px;
+border-radius: 25px
+}
+.menu-items input[type=text] {
+padding: 7px;
+margin-top: 0px;
+font-size: 16px;
+border: none;
+}
+/*.menu-items .search-container button:hover {
+background: #ccc;
+}*/
+.logo {
+text-decoration: none;
+order: 1;
+font-size: 2rem;
+margin-bottom: 0.5rem;
+}
+.logo img{
+height: 75px;
+width: 100%;
+}
+body {
+font-family: poppins;
+}
+.common-container{
+margin: auto;
+}
+.home-product-category{
+padding: 0rem 5rem;
+}
+.home-product-category h1 {
+font-size: 2.3rem;
+margin: 2rem 0rem;
+}
+@keyframes title_left_to_right {
+from {
+margin-left: -50%;
+}
+to {
+margin-left: 0%;
+}
+}
+.product-container{
+display: flex;
+justify-content: space-between;
+font-size: 1.1rem;
+}
+.for-space {
+margin-bottom: 1rem;
+}
+.image-hover:hover {
+opacity: 0.5;
+}
+.product-container a{
+text-decoration: none;
+}
+.column-footer1 ul li a{
+text-decoration: none;
+}
+.column-footer1 ul li a:hover{
+color: black;
+}
+.product-container p.product-name{
+color: #f96d33;
+margin-top: 1rem;
+font-size: 1.1rem;
+text-decoration: none;
+}
+.product-box {
+text-align: center;
+padding: 0rem;
+}
+.product-detail-info{
+border-bottom: 1px solid #f96d33;
+}   
+.product-photo{
+position: relative;
+}
+.hover_logo{
+border-radius:  50% 50%;
+border: 5px solid black;
+height: 100px;
+width: 100px;
+position: absolute;
+transition: .5s ease;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+.brand_product {
+display: block;
+width: 350px;
+height: 450px;
+object-fit: cover;
+object-position: center;
+margin: auto;
+}
+/* --------------End home page product category - home page------------------*/
+/* --------------home page product discount - home page------------------*/
+.home-product-discount{
+padding: 2rem 3rem;
+}
+.home-product-discount h1 {
+text-align: center;
+font-size: 2.3rem;
+margin: 2rem 0rem 3rem 0rem;
+}
+.product-discount-container{
+display: flex;
+justify-content: space-between;
+font-size: 1.4rem;
+}
+.product-discount-box{
+width: 48%;
+text-align: center;
+}
+.product-discount-photo{
+width: 100%;
+}
+.product-discount-photo img{
+display: block;
+width: 100%;
+height: 370px;
+object-fit: cover;
+object-position: center;
+}
+.product-discount-container p.product-name{
+color: #f96d33;
+}
+.hero-image {
+margin: 1.2rem 1rem 1.2rem 1rem;
+}
+.hero-image img{
+width: 100%;
+height: 300px;
+}
+.home-sec1-main-title{
+font-size: 2.3rem;
+margin: 2rem 2rem;
+}
+.activities_details_part2{
+width: 50%;
+margin-left: 3rem;
+}
+.activity_name{
+font-size: 1.5rem ;
+}
+#timeslots {
+border-radius: 1rem bold #f96d33;;
+padding: 0rem 2rem;
+font-size: 1.2rem;
+}
+.addtocart{
+padding: 0.4rem 1.5rem;
+border-radius: 0.8rem;
+background-color: #f96d33;
+margin: 2rem 1.5rem 1.5rem 11rem;
+font-size: 1.1rem;
+text-align: center;
+}
+#timeslots option: hover{
+background-color: #f96d33;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+.mySlides img {
+border-radius: 1rem;
+}
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.addtocarta{
+color: black;
+text-decoration: none;
+}
+.addtocarta b : hover{
+color: black;
+text-decoration: none;
+}
+/* On hover, add a black background color with a little bit see-through */
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* Container for image text */
+.caption-container {
+padding: 2px 16px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+/* Six columns side by side */
+.column {
+float: left;
+width: 25%;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+padding: 0.2rem;
+height: 8rem;
+border-radius: 1rem;
+}
+.active,
+.demo:hover {
+opacity: 1;
+}
+.bag-details{
+display: flex;
+justify-content: space-between;
+margin: 2rem;
+}
+.bag-details-part1{
+margin-left: 2rem;
+}
+.bag-details-part2{
+margin-left: 4rem;
+}
+.activities_details_part12{
+display: flex;
+justify-content: space-between;
+margin: 2rem;
+}
+.bag-details-part1-img img{
+border-radius: 1rem;
+}
+.confirm-up{
+display: flex;
+justify-content: space-between;
+}
+.button-confirm{
+border: 0.2rem solid;
+border-radius: 1rem;
+padding: 0.5rem 1.5rem ;
+font-size: 1.2rem;
+margin-right: 22rem;
+background-color: #F2E9E4;
+}
+.button-confirm a{
+text-decoration: none;
+color: black;
+}
+.button-confirm a :hover{
+color: #f96d33;
+}
+.button-confirm1{
+border: 0.2rem solid;
+border-radius: 1rem;
+padding: 0.5rem 1.5rem ;
+font-size: 1.2rem;
+margin-right: 23rem;
+background-color: #F2E9E4;
+margin-top: 3rem  ;
+}
+.button-confirm1 a{
+text-decoration: none;
+color: black;
+}
+.button-confirm1 a :hover{
+color: #f96d33;
+}
+.confirm-booking-text p{
+font-weight: 600;
+font-size: 1.5rem;
+margin-left: 5rem;
+line-height: 2.5rem;
+margin-bottom: 3rem;
+}
+.confirm-tittle{
+margin-left: 4rem;
+}
+.confirm-booking{
+margin-top: 2.5rem;
+}
+.confirmation{
+margin: 3rem 8rem 3rem 23rem;
+}
+#id{
+font-weight: 800;
+}
+.confirmation-title{
+font-size: 3rem;
+font-weight: 900;
+letter-spacing: 0.5rem;
+}
+.confirmation-title1{
+font-size: 2rem;
+font-weight: 500;
+line-height: 4.1rem;
+letter-spacing: 0.3rem
+}
+.faq-tc-about-page{
+font-weight: 500;
+font-size: 1.3rem;
+line-height: 1rem;
+}
+.faq-tc-about-page p{
+line-height: 2rem;
+letter-spacing: 0.1rem;
+}
+.aboutus-text{
+margin: 3rem 0rem 5rem 3rem;
+}
+.footer1{
+width: 100%;
+text-align: left;
+color: #f96d33;
+text-decoration: none;
+font-size: 1.1rem; 
+background-color: #f4ebf3;
+}
+.footer-container1:after {
+content: "";
+display: table;
+clear: both;
+}
+.column-footer1 {
+width: 30%;
+height: auto;
+float: left;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+padding: 1.5rem 0rem;
+}
+.column-footer1 h3 {
+margin: 0;
+padding: 0;
+font-family: inherit;
+line-height: 50px;
+font-weight: normal;
+}
+.column-footer1 ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.column-footer1 ul li {
+font-family: inherit;
+padding: 5px 0px;
+cursor: pointer;
+transition: .2s;
+-webkit-transition: .2s;
+-moz-transition: .2s;
+}
+.footer1 a{
+text-decoration: none;
+color: #f96d33;
+}
+.footer1 a.active{
+color: black;
+}
+.social {
+font-size: 35px;
+width: 38px;
+text-align: center;
+text-decoration: none;
+margin: 8px 5px;
+color: #f96d33;
+}
+.contact-fa{
+padding-right: 10px;
+}
