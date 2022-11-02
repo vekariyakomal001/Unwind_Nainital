@@ -1,4 +1,12 @@
-• Developed a scalable website for advance booking of activities at tourist place.
-• Coded responsive front-end and authenticated back-end with forgot-password functionality by email.
-• Implemented website for 2 different user roles, admin can block-unblock customers and activities.
-• Supervised and fixed issues by doing the appropriate modification.
+- Using this website, customers don't have to stand in queues to book their tickets for adventure sports or De-stress activities.
+- As well as, what are the dos and don'ts of the sites providing these activities.
+- Many times, when the participant visits the particular activity spot, the activity is not available on that particular day of the week, or all the tickets are fully sold out.
+- More than that, participants having any pre-illness/injury can still participate in the sport or not.
+- Customers can also get to know about the parking sites near the activity spots, and they can even pre-book parking spots. Like, on busy days (Weekends) it is hard to find the site for parking.
+- They get the weather advisory on the website, so they can prepare their trip accordingly.
+- Participants also get a personalized activity instructor at the activity sites to boom their experiences and to make it safe and secure for them.
+- They also get to know about the perfect timings/days to visit the location.
+- Customers can know about the prices, the location of the sites providing the activities. 
+- If they can pursue one activity like boating, they can go for other activities at the available time frame.
+- They are well-connected to our support team and contact us if they face any sort of problem.
+- Customers can pre-book packages according to their preferences like if they are interested in mountain track, the pre-defined recommendations are available associated with it to boost their experience.
