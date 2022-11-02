@@ -1,0 +1,4 @@
+• Developed a scalable website for advance booking of activities at tourist place.
+• Coded responsive front-end and authenticated back-end with forgot-password functionality by email.
+• Implemented website for 2 different user roles, admin can block-unblock customers and activities.
+• Supervised and fixed issues by doing the appropriate modification.
